@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contacto de Ccarpeta</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <form action="recuperardatos" method="post">
+  Ingrese Nombres y Apellidos:
+  <input type="text" name="nombres" size="30"><br>
+  Ingrese Correo Elecctronico:
+  <input type="email" name="correo" size="30"><br>
+  Ingrese Telefono Movil:
+  <input type="number" name="telefono" size="30"><br>
+  Ingrese Fecha de Nacimiento:
+  <input type="date" name="nacimiento" size="30"><br>
+  Ingrese mensaje:
+  <input type="text" name="mensaje" size="30"><br>
+
+  <input type="submit" value="Enviar">
+</form>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Menu carpeta</title>
+  <meta charset="UTF-8">
+  <style type="text/css">
+    body{background: skyblue; font-family: verdana; color #fff; padding: : 30px;}
+    h1{front-size: 48px; text-transform: uppercase;letter-spacing: 2px; text-align: center;}
+    p{front.size: 16px; text-align: center;}
+  </style>
+</head>
+<body>
+  <h1>Bienvenidos</h1>
+  <p>Funka</p>
+</body>
+</html>

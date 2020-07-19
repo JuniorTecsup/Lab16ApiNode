@@ -1,0 +1,18 @@
+var format = Date.parse('2020-04-21');
+
+format = require('date-format');
+format.asString(); //defaults to ISO8601 format and current date.
+format.asString(new Date()); //defaults to ISO8601 format
+var x = format.asString('yyyy-MM-dd', new Date());
+
+
+
+var date = new Date();
+
+var firstDay = new Date(date.getFullYear(), date.getMonth(), 1); 
+var lastDay = new Date(date.getFullYear(), date.getMonth() + 1, 0);
+
+console.log(' Primer ',firstDay);
+console.log(' Ultimo ',lastDay);
+console.log(' DATE ', date);
+console.log(' ingresa ', x);

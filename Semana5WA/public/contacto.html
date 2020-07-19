@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  .modal-header, h4, .close {
+    background-color: #5cb85c;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+  }
+  .modal-footer {
+    background-color: #f9f9f9;
+  }
+  </style>
+</head>
+<body>
+
+
+    <div class="container">
+    
+      <div class="">
+        <div class="modal-header" style="padding:35px 50px;">
+          <h4><span class="glyphicon glyphicon-envelope"></span> Contactenos</h4>
+        </div>
+        <div class="modal-body" style="padding:30px 250px;">
+          <form action="recuperardatos" method="post">
+            <div class="form-group">
+              <label for="nombres"><span class="glyphicon glyphicon-user"></span> Nombres y Apellidos</label>
+              <input type="text" class="form-control" name="nombres" placeholder="Ingresar nombres">
+            </div>
+            <div class="form-group">
+              <label for="correo"><span class="glyphicon glyphicon-envelope"></span> Correo</label>
+              <input type="email" class="form-control" name="correo" placeholder="Ingrese Correo">
+            </div>
+            <div class="form-group">
+              <label for="telefono"><span class="glyphicon glyphicon-phone"></span> Telefono Movil</label>
+              <input type="number" class="form-control" name="telefono" placeholder="Ingrese Numero">
+            </div>
+            <div class="form-group">
+              <label for="nacimiento"><span class="glyphicon glyphicon-heart-empty"></span> Fecha de Nacimiento</label>
+              <input type="Date" class="form-control" name="nacimiento" placeholder="Ingrese fecha de nacimiento">
+            </div>
+            <div class="form-group">
+              <label for="mensaje"><span class="glyphicon glyphicon-comment"></span> Mensaje</label>
+              <textarea class="form-control" name="mensaje" placeholder="Ingrese mensaje"></textarea>
+            </div>
+
+              <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-hand-right"></span> Enviar Mensaje</button>
+          </form>
+        </div>
+      </div>
+      
+    </div>
+
+ 
+
+
+</body>
+</html>
